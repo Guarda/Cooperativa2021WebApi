@@ -1,0 +1,133 @@
+E:\coreAPI\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+E:\coreAPI\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\appsettings.json
+E:\coreAPI\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Properties\launchSettings.json
+E:\coreAPI\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.exe
+E:\coreAPI\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.deps.json
+E:\coreAPI\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.runtimeconfig.json
+E:\coreAPI\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.runtimeconfig.dev.json
+E:\coreAPI\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.dll
+E:\coreAPI\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.pdb
+E:\coreAPI\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+E:\coreAPI\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+E:\coreAPI\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+E:\coreAPI\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+E:\coreAPI\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfoInputs.cache
+E:\coreAPI\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfo.cs
+E:\coreAPI\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.RazorTargetAssemblyInfo.cache
+E:\coreAPI\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CopyComplete
+E:\coreAPI\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI.StaticWebAssets.Manifest.cache
+E:\coreAPI\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI.StaticWebAssets.xml
+E:\coreAPI\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
+E:\coreAPI\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
+E:\coreAPI\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
+E:\coreAPI\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csprojAssemblyReference.cache
+E:\coreAPI\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+E:\coreAPI\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+E:\coreAPI\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+E:\coreAPI\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+E:\coreAPI\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\coreAPI\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+E:\coreAPI\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CoreCompileInputs.cache
+E:\coreAPI\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.exe
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.deps.json
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.runtimeconfig.json
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.runtimeconfig.dev.json
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.dll
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.pdb
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfoInputs.cache
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfo.cs
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI.StaticWebAssets.Manifest.cache
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI.StaticWebAssets.xml
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\scopedcss\bundle\WebAPI.styles.css
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CopyComplete
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.AssemblyReference.cache
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Library.dll
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Library.pdb
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.exe
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.deps.json
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.runtimeconfig.json
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.runtimeconfig.dev.json
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.dll
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.pdb
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Library.dll
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Library.pdb
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.AssemblyReference.cache
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfoInputs.cache
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfo.cs
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI.StaticWebAssets.Manifest.cache
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI.StaticWebAssets.xml
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\scopedcss\bundle\WebAPI.styles.css
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CopyComplete
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\appsettings.Development.json
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\appsettings.json
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.exe
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.deps.json
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.runtimeconfig.json
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.runtimeconfig.dev.json
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.dll
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\WebAPI.pdb
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.JsonPatch.dll
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.NewtonsoftJson.dll
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\System.Data.SqlClient.dll
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Library.dll
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\bin\Debug\netcoreapp3.1\Library.pdb
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.AssemblyReference.cache
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfoInputs.cache
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.AssemblyInfo.cs
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CoreCompileInputs.cache
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI.StaticWebAssets.Manifest.cache
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\staticwebassets\WebAPI.StaticWebAssets.xml
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\scopedcss\bundle\WebAPI.styles.css
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.RazorTargetAssemblyInfo.cache
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.csproj.CopyComplete
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.dll
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.pdb
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\WebAPI\obj\Debug\netcoreapp3.1\WebAPI.genruntimeconfig.cache

@@ -1,0 +1,30 @@
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\Library\bin\Debug\netcoreapp3.1\Library.deps.json
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\Library\bin\Debug\netcoreapp3.1\Library.dll
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\Library\bin\Debug\netcoreapp3.1\Library.pdb
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\Library\obj\Debug\netcoreapp3.1\Library.csproj.AssemblyReference.cache
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\Library\obj\Debug\netcoreapp3.1\Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\Library\obj\Debug\netcoreapp3.1\Library.AssemblyInfoInputs.cache
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\Library\obj\Debug\netcoreapp3.1\Library.AssemblyInfo.cs
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\Library\obj\Debug\netcoreapp3.1\Library.csproj.CoreCompileInputs.cache
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\Library\obj\Debug\netcoreapp3.1\Library.dll
+C:\Users\usuario\Documents\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\Library\obj\Debug\netcoreapp3.1\Library.pdb
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\Library\bin\Debug\netcoreapp3.1\Library.deps.json
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\Library\bin\Debug\netcoreapp3.1\Library.dll
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\Library\bin\Debug\netcoreapp3.1\Library.pdb
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\Library\obj\Debug\netcoreapp3.1\Library.csproj.AssemblyReference.cache
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\Library\obj\Debug\netcoreapp3.1\Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\Library\obj\Debug\netcoreapp3.1\Library.AssemblyInfoInputs.cache
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\Library\obj\Debug\netcoreapp3.1\Library.AssemblyInfo.cs
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\Library\obj\Debug\netcoreapp3.1\Library.csproj.CoreCompileInputs.cache
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\Library\obj\Debug\netcoreapp3.1\Library.dll
+C:\Users\alexm\OneDrive\Documents\2021\ISO1\Nueva carpeta\Nueva carpeta\PROYECTO\Nueva carpeta\WebAPI\Library\obj\Debug\netcoreapp3.1\Library.pdb
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\Library\bin\Debug\netcoreapp3.1\Library.deps.json
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\Library\bin\Debug\netcoreapp3.1\Library.dll
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\Library\bin\Debug\netcoreapp3.1\Library.pdb
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\Library\obj\Debug\netcoreapp3.1\Library.csproj.AssemblyReference.cache
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\Library\obj\Debug\netcoreapp3.1\Library.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\Library\obj\Debug\netcoreapp3.1\Library.AssemblyInfoInputs.cache
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\Library\obj\Debug\netcoreapp3.1\Library.AssemblyInfo.cs
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\Library\obj\Debug\netcoreapp3.1\Library.csproj.CoreCompileInputs.cache
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\Library\obj\Debug\netcoreapp3.1\Library.dll
+C:\Users\alexm\Documents\2021\ISO1\PROYECTO\Nueva carpeta\WebAPI\Library\obj\Debug\netcoreapp3.1\Library.pdb
