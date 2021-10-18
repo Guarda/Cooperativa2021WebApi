@@ -6,6 +6,7 @@ using System.Linq;
 using System.Reflection;
 using System.Data;
 using WebAPI.Response;
+using WebAPI.Models;
 
 namespace WebApi.Controllers
 {
@@ -76,20 +77,20 @@ namespace WebApi.Controllers
                 List<Model.Afiliado> listaAfiliado = bllAfiliado.FiltrarAfiliado();
 
                 var listadoAfiliado = from x in listaAfiliado
-                                          select new
-                                          {
-                                              x.IdAfiliado,
-                                              x.NombreAfiliado,
-                                              x.ApellidoAfiliado
-                                          };
-
-
+                                      select new
+                                      {
+                                          x.IdAfiliado,
+                                          x.NombreAfiliado,
+                                          x.ApellidoAfiliado,
+                                          x.Estado
+                                      };
                 if (!string.IsNullOrEmpty(filter))
                 {
                     listadoAfiliado = listadoAfiliado.Where(m =>
                                                m.IdAfiliado.ToString().ToLower().Contains(filter.ToLower()) ||
                                                m.NombreAfiliado.ToLower().Contains(filter.ToLower()) ||
-                                               m.ApellidoAfiliado.ToLower().Contains(filter.ToLower()));
+                                               m.ApellidoAfiliado.ToLower().Contains(filter.ToLower()) ||
+                                               m.Estado.ToLower().Contains(filter.ToLower()));
                 }
 
                 if (!String.IsNullOrEmpty(sortActive))
@@ -133,172 +134,178 @@ namespace WebApi.Controllers
             }
         }
 
-        //[HttpGet]
-        //[Route("{idAfiliado:int}")]
-        //[ValidarPermiso(IdPermiso = "FILTRAR_SOCIO_NEGOCIO")]
-        //public IActionResult GetById(Int32 IdAfiliado)
-        //{
-        //    try
-        //    {
-        //        BLL.Afiliado bllAfiliado = new BLL.Afiliado();
-        //        Model.Afiliado modAfiliado = bllAfiliado.FiltrarAfiliadoxId(IdAfiliado);
+        [HttpGet]
+        [Route("{idAfiliado:int}")]       
+        public IActionResult getbyid(Int32 idAfiliado)
+        {
+            try
+            {
+                BLL.Afiliado bllafiliado = new BLL.Afiliado();
+                Model.Afiliado modafiliado = bllafiliado.FiltrarAfiliadoxId(idAfiliado);
 
-        //        var socioNegocio = new
-        //        {
-        //            modAfiliado.IdAfiliado,
-        //            modAfiliado.Nombre,
-        //            modAfiliado.CodigoCliente,
-        //            modAfiliado.Abreviacion,
-        //            modAfiliado.MostrarEtiqueta,
-        //            modAfiliado.PermitirPeso,
-        //            modAfiliado.AgruparRemisionDetalle,
-        //        };
+                var socionegocio = new
+                {
+                    modafiliado.IdAfiliado,
+                    modafiliado.NombreAfiliado,
+                    modafiliado.ApellidoAfiliado,
+                    modafiliado.IdReferente,
+                    modafiliado.Celular,
+                    modafiliado.TelefonoDomicilio,
+                    modafiliado.CorreoElectronico,
+                    modafiliado.Cedula,
+                    modafiliado.Direccion1,
+                    modafiliado.Direccion2,
+                    modafiliado.FechaInscripcion,
+                    modafiliado.NombreUsuario,
+                    modafiliado.Contraseña,
+                    modafiliado.IdEstado,
+                    modafiliado.IdCargo
+                };
 
-        //        return Ok(new Respuesta
-        //        {
-        //            Exito = CodigoRespuesta.Exito,
-        //            Mensaje = _appSettings.MensajeServidor.RegistroObtenidoConExito,
-        //            Dato = socioNegocio
-        //        });
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        return Ok(new Respuesta
-        //        {
-        //            Exito = CodigoRespuesta.Error,
-        //            Mensaje = $"{e.Message}",
-        //            Dato = e.StackTrace
-        //        });
-        //    }
-        //}
+                return Ok(new Respuesta
+                {
+                    Exito = CodigoRespuesta.Exito,
+                    Mensaje = "Afiliado insertado con exito",
+                    Dato = socionegocio
+                });
+            }
+            catch (Exception e)
+            {
+                return Ok(new Respuesta
+                {
+                    Exito = CodigoRespuesta.Error,
+                    Mensaje = $"{e.Message}",
+                    Dato = e.StackTrace
+                }); ;
+            }
+        }
 
 
-        //[HttpPost]
-        //[ValidarPermiso(IdPermiso = "INSERTAR_SOCIO_NEGOCIO")]
-        //public IActionResult Post([FromBody] AfiliadoInsertar socioNegocioInsertar)
-        //{
-        //    try
-        //    {
-        //        BLL.Afiliado bllAfiliado = new BLL.Afiliado();
+        [HttpPost]
+        public IActionResult Post([FromBody] AfiliadoInsertar modAfiliadoInsertar)
+        {
+            try
+            {
+                BLL.Afiliado bllAfiliado = new BLL.Afiliado();
 
-        //        // Se crea el modelo del socioNegocio
-        //        Model.Afiliado modAfiliado = new Model.Afiliado
-        //        {
-        //            Nombre = socioNegocioInsertar.Nombre,
-        //            Abreviacion = socioNegocioInsertar.Abreviacion,
-        //            CodigoCliente = socioNegocioInsertar.CodigoCliente,
+                // Se crea el modelo del socioNegocio
+                Model.Afiliado modAfiliado = new Model.Afiliado
+                {
+                    IdReferente = modAfiliadoInsertar.IdReferente,
+                    NombreAfiliado = modAfiliadoInsertar.NombreAfiliado,
+                    ApellidoAfiliado = modAfiliadoInsertar.ApellidoAfiliado,                    
+                    Celular = modAfiliadoInsertar.Celular,
+                    TelefonoDomicilio = modAfiliadoInsertar.TelefonoDomicilio,
+                    CorreoElectronico = modAfiliadoInsertar.CorreoElectronico,
+                    Cedula = modAfiliadoInsertar.Cedula,
+                    Direccion1 = modAfiliadoInsertar.Direccion1,
+                    Direccion2 = modAfiliadoInsertar.Direccion2,
+                    FechaInscripcion = modAfiliadoInsertar.FechaInscripcion,
+                    IdEstado = modAfiliadoInsertar.IdEstado,
+                    IdCargo = modAfiliadoInsertar.IdCargo,
+                    NombreUsuario = modAfiliadoInsertar.NombreUsuario,
+                    Contraseña = modAfiliadoInsertar.Contraseña,
+                };
 
-        //            MostrarEtiqueta = socioNegocioInsertar.MostrarEtiqueta,
-        //            PermitirPeso = socioNegocioInsertar.PermitirPeso,
-        //            AgruparRemisionDetalle = socioNegocioInsertar.AgruparRemisionDetalle,
+                // Inserta en la base de datos
+                modAfiliado = bllAfiliado.InsertarAfiliado(modAfiliado);
 
-        //            Activo = true,
+                return Ok(new Respuesta
+                {
+                    Exito = CodigoRespuesta.Exito,
+                    Mensaje = "Afiliado insertado con exito",
+                    Dato = modAfiliado
+                });
+            }
+            catch (Exception e)
+            {
+                return Ok(new Respuesta
+                {
+                    Exito = CodigoRespuesta.Error,
+                    Mensaje = $"{e.Message}",
+                    Dato = e.StackTrace
+                });
+            }
+        }
 
-        //            IdUsuarioCreacion = usuarioAPI.IdUsuario,
-        //            FechaCreacion = DateTime.Now,
-        //            IpEquipoCreacion = Request.HttpContext.Connection.RemoteIpAddress.ToString(),
+        [HttpPut]
+        //[validarpermiso(idpermiso = "actualizar_socio_negocio")]
+        public IActionResult put([FromBody] AfiliadoActualizar afiliadoActualizar)
+        {
+            try
+            {
+                BLL.Afiliado bllAfiliado = new BLL.Afiliado();
+                Model.Afiliado modafiliado = bllAfiliado.FiltrarAfiliadoxId(afiliadoActualizar.IdAfiliado);
 
-        //            IdUsuarioModificacion = usuarioAPI.IdUsuario,
-        //            FechaModificacion = DateTime.Now,
-        //            IpEquipoModificacion = Request.HttpContext.Connection.RemoteIpAddress.ToString()
-        //        };
 
-        //        // Inserta en la base de datos
-        //        modAfiliado = bllAfiliado.InsertarAfiliado(modAfiliado);
+                modafiliado.NombreAfiliado = afiliadoActualizar.NombreAfiliado;
+                modafiliado.ApellidoAfiliado = afiliadoActualizar.ApellidoAfiliado;
+                modafiliado.IdReferente = afiliadoActualizar.IdReferente;
 
-        //        return Ok(new Respuesta
-        //        {
-        //            Exito = CodigoRespuesta.Exito,
-        //            Mensaje = _appSettings.MensajeServidor.RegistroAgregadoConExito,
-        //            Dato = modAfiliado
-        //        });
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        return Ok(new Respuesta
-        //        {
-        //            Exito = CodigoRespuesta.Error,
-        //            Mensaje = $"{e.Message}",
-        //            Dato = e.StackTrace
-        //        });
-        //    }
-        //}
+                modafiliado.Celular = afiliadoActualizar.Celular;
+                modafiliado.TelefonoDomicilio = afiliadoActualizar.TelefonoDomicilio;
+                modafiliado.CorreoElectronico = afiliadoActualizar.CorreoElectronico;
+                modafiliado.Cedula = afiliadoActualizar.Cedula;
+                modafiliado.Direccion1 = afiliadoActualizar.Direccion1;
+                modafiliado.Direccion2 = afiliadoActualizar.Direccion2;
+                modafiliado.FechaInscripcion = afiliadoActualizar.FechaInscripcion;
+                modafiliado.NombreUsuario = afiliadoActualizar.NombreUsuario;
+                modafiliado.Contraseña = afiliadoActualizar.Contraseña;
+                modafiliado.IdEstado = afiliadoActualizar.IdEstado;
+                modafiliado.IdCargo = afiliadoActualizar.IdCargo;
+                //modafiliado.ipequipomodificacion = request.httpcontext.connection.remoteipaddress.tostring();
 
-        //[HttpPut]
-        //[ValidarPermiso(IdPermiso = "ACTUALIZAR_SOCIO_NEGOCIO")]
-        //public IActionResult Put([FromBody] AfiliadoActualizar socioNegocioActualizar)
-        //{
-        //    try
-        //    {
-        //        BLL.Afiliado bllAfiliado = new BLL.Afiliado();
-        //        Model.Afiliado modAfiliado = bllAfiliado.FiltrarAfiliadoxId(socioNegocioActualizar.IdAfiliado);
+                bllAfiliado.ActualizarAfiliado(modafiliado);
 
-        //        modAfiliado.Nombre = socioNegocioActualizar.Nombre;
-        //        modAfiliado.CodigoCliente = socioNegocioActualizar.CodigoCliente;
+                return Ok(new Respuesta
+                {
+                    Exito = CodigoRespuesta.Exito,
+                    Mensaje = "Afiliado actualizado con exito",
+                    Dato = modafiliado
+                });
+            }
+            catch (Exception e)
+            {
+                return Ok(new Respuesta
+                {
+                    Exito = CodigoRespuesta.Error,
+                    Mensaje = $"{e.Message}",
+                    Dato = e.StackTrace
+                });
+            }
+        }
 
-        //        modAfiliado.Abreviacion = socioNegocioActualizar.Abreviacion;
+        [HttpDelete]
+        [Route("{idAfiliado:int}")]
+        // [ValidarPermiso(IdPermiso = "ELIMINAR_SOCIO_NEGOCIO")]
+        public IActionResult Delete(Int32 idAfiliado)
+        {
+            try
+            {
+                BLL.Afiliado bllAfiliado = new BLL.Afiliado();
+                Model.Afiliado modAfiliado = bllAfiliado.FiltrarAfiliadoxId(idAfiliado);
 
-        //        modAfiliado.MostrarEtiqueta = socioNegocioActualizar.MostrarEtiqueta;
-        //        modAfiliado.PermitirPeso = socioNegocioActualizar.PermitirPeso;
-        //        modAfiliado.AgruparRemisionDetalle = socioNegocioActualizar.AgruparRemisionDetalle;
+                modAfiliado.IdEstado = 0;
 
-        //        modAfiliado.Activo = true;
+                bllAfiliado.ActualizarAfiliado(modAfiliado);
 
-        //        modAfiliado.IdUsuarioModificacion = usuarioAPI.IdUsuario;
-        //        modAfiliado.FechaModificacion = DateTime.Now;
-        //        modAfiliado.IpEquipoModificacion = Request.HttpContext.Connection.RemoteIpAddress.ToString();
-
-        //        bllAfiliado.ActualizarAfiliado(modAfiliado);
-
-        //        return Ok(new Respuesta
-        //        {
-        //            Exito = CodigoRespuesta.Exito,
-        //            Mensaje = _appSettings.MensajeServidor.RegistroActualizadoConExito,
-        //            Dato = modAfiliado
-        //        });
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        return Ok(new Respuesta
-        //        {
-        //            Exito = CodigoRespuesta.Error,
-        //            Mensaje = $"{e.Message}",
-        //            Dato = e.StackTrace
-        //        });
-        //    }
-        //}
-
-        //[HttpDelete]
-        //[Route("{idAfiliado:int}")]
-        //[ValidarPermiso(IdPermiso = "ELIMINAR_SOCIO_NEGOCIO")]
-        //public IActionResult Delete(Int32 idAfiliado)
-        //{
-        //    try
-        //    {
-        //        BLL.Afiliado bllAfiliado = new BLL.Afiliado();
-        //        Model.Afiliado modAfiliado = bllAfiliado.FiltrarAfiliadoxId(idAfiliado);
-
-        //        modAfiliado.Activo = false;
-
-        //        bllAfiliado.ActualizarAfiliado(modAfiliado);
-
-        //        return Ok(new Respuesta
-        //        {
-        //            Exito = CodigoRespuesta.Exito,
-        //            Mensaje = _appSettings.MensajeServidor.RegistroEliminadoConExito,
-        //            Dato = modAfiliado
-        //        });
-        //    }
-        //    catch (Exception e)
-        //    {
-        //        return Ok(new Respuesta
-        //        {
-        //            Exito = CodigoRespuesta.Error,
-        //            Mensaje = $"{e.Message}",
-        //            Dato = e.StackTrace
-        //        });
-        //    }
-        //}
+                return Ok(new Respuesta
+                {
+                    Exito = CodigoRespuesta.Exito,
+                    Mensaje = "El afiliado ha sido dado de baja exitosamente",
+                    Dato = modAfiliado
+                });
+            }
+            catch (Exception e)
+            {
+                return Ok(new Respuesta
+                {
+                    Exito = CodigoRespuesta.Error,
+                    Mensaje = $"{e.Message}",
+                    Dato = e.StackTrace
+                });
+            }
+        }
 
     }
 }

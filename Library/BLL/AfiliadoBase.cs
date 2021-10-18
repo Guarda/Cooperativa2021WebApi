@@ -59,45 +59,45 @@ namespace BLL
             }
         }
 
-        //public Model.Afiliado InsertarAfiliado(Model.Afiliado modAfiliado)
-        //{
-        //    try
-        //    {
-        //        dalAfiliado.conexion.AbrirConexion();
+        public Model.Afiliado InsertarAfiliado(Model.Afiliado modAfiliado)
+        {
+            try
+            {
+                dalAfiliado.conexion.AbrirConexion();
 
-        //        SqlDataReader sqlDataReader = dalAfiliado.InsertarAfiliado(modAfiliado);
+                SqlDataReader sqlDataReader = dalAfiliado.InsertarAfiliado(modAfiliado);
 
-        //        modAfiliado = ConversorClases.ConvertModel<Model.Afiliado>(sqlDataReader);
+                modAfiliado = ConversorClases.ConvertModel<Model.Afiliado>(sqlDataReader);
 
-        //        dalAfiliado.conexion.CerrarConexion();
+                dalAfiliado.conexion.CerrarConexion();
 
-        //        return modAfiliado;
-        //    }
-        //    catch
-        //    {
-        //        throw;
-        //    }
-        //}
+                return modAfiliado;
+            }
+            catch
+            {
+                throw;
+            }
+        }
 
-        //public Model.Afiliado ActualizarAfiliado(Model.Afiliado modAfiliado)
-        //{
-        //    try
-        //    {
-        //        dalAfiliado.conexion.AbrirConexion();
+        public Model.Afiliado ActualizarAfiliado(Model.Afiliado modAfiliado)
+        {
+            try
+            {
+                dalAfiliado.conexion.AbrirConexion();
 
-        //        SqlDataReader sqlDataReader = dalAfiliado.ActualizarAfiliado(modAfiliado);
+                SqlDataReader sqlDataReader = dalAfiliado.ActualizarAfiliado(modAfiliado);
 
-        //        modAfiliado = ConversorClases.ConvertModel<Model.Afiliado>(sqlDataReader);
+                modAfiliado = ConversorClases.ConvertModel<Model.Afiliado>(sqlDataReader);
 
-        //        dalAfiliado.conexion.CerrarConexion();
+                dalAfiliado.conexion.CerrarConexion();
 
-        //        return modAfiliado;
-        //    }
-        //    catch
-        //    {
-        //        throw;
-        //    }
-        //}
+                return modAfiliado;
+            }
+            catch
+            {
+                throw;
+            }
+        }
 
     }
 }

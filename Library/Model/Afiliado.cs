@@ -6,5 +6,6 @@ namespace Model
 {
     public class Afiliado : AfiliadoBase
     {
+        public String Estado { get; set; }
     }
 }

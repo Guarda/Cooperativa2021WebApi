@@ -7,8 +7,8 @@ namespace Model
     public class Agente : AgenteBase
     {
 		public int IdReferente { get; set; }
-		public string NombreAfiliado { get; set; }
-		public string ApellidoAfiliado { get; set; }
+		public string NombreAgente { get; set; }
+		public string ApellidoAgente { get; set; }
 		public int Celular { get; set; }
 		public int TelefonoDomicilio { get; set; }
 		public string CorreoElectronico { get; set; }
@@ -18,6 +18,8 @@ namespace Model
 		public DateTime FechaInscripcion { get; set; }
 		public int EstadoAfiliado { get; set; }
 		public int Cargo { get; set; }
+
+		public string Estado { get; set; }
 	}
 }
 

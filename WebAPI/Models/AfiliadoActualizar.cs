@@ -1,9 +1,12 @@
 ﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Threading.Tasks;
 
-namespace Model
+namespace WebAPI.Models
 {
-	public abstract class AfiliadoBase
-	{
+    public class AfiliadoActualizar
+    {
         public Int32 IdAfiliado { get; set; }
         public String NombreAfiliado { get; set; }
         public String ApellidoAfiliado { get; set; }
@@ -19,6 +22,5 @@ namespace Model
         public Int32 IdCargo { get; set; }
         public string NombreUsuario { get; set; }
         public string Contraseña { get; set; }
-
     }
 }
