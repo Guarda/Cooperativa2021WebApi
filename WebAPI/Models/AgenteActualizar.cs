@@ -5,11 +5,12 @@ using System.Threading.Tasks;
 
 namespace WebAPI.Models
 {
-    public class AfiliadoActualizar
+    public class AgenteActualizar
     {
         public Int32 IdAfiliado { get; set; }
-        public String NombreAfiliado { get; set; }
-        public String ApellidoAfiliado { get; set; }
+        public Int32 IdAgente { get; set; }
+        public String NombreAgente { get; set; }
+        public String ApellidoAgente { get; set; }
         public Int32 IdReferente { get; set; }
         public Int32 Celular { get; set; }
         public Int32 TelefonoDomicilio { get; set; }

@@ -45,6 +45,28 @@ namespace DAL
             }
         }
 
+        public SqlDataReader FiltrarAfiliadoxNombreUsuario(
+   String NombreUsuario
+        )
+        {
+            try
+            {
+                SqlParameter[] sqlParameters = new SqlParameter[] {
+                                                                    new SqlParameter("@NombreUsuario", SqlDbType.VarChar),
+                 };
+
+
+                sqlParameters[0].Value = NombreUsuario;
+
+                return conexion.FiltrarRegistro("dbo.FiltrarAfiliadoxNombreUsuario", sqlParameters);
+            }
+            catch
+            {
+                throw;
+            }
+        }
+
+
         internal SqlDataReader InsertarAfiliado(Model.Afiliado modAfiliado)
         {
             try
@@ -142,6 +164,28 @@ namespace DAL
                 sqlParameters[14].Value = modAfiliado.Contraseña;
 
                 return conexion.FiltrarRegistro("dbo.ActualizarAfiliado", sqlParameters);
+            }
+            catch
+            {
+                throw;
+            }
+        }
+
+        internal SqlDataReader PromoverAfiliado(Model.Afiliado modAfiliado)
+        {
+            try
+            {
+                SqlParameter[] sqlParameters = new SqlParameter[] {
+
+                 new SqlParameter("@IdAfiliado", SqlDbType.Int),                 
+                 new SqlParameter("@FechaContrato", SqlDbType.Date)
+                
+                 };
+
+                sqlParameters[0].Value = modAfiliado.IdAfiliado;
+                sqlParameters[1].Value = modAfiliado.FechaContrato;                
+
+                return conexion.FiltrarRegistro("dbo.PromoverAfiliado", sqlParameters);
             }
             catch
             {

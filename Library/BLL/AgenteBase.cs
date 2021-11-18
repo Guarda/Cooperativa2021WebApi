@@ -34,5 +34,69 @@ namespace BLL
             }
         }
 
+        public Model.Agente FiltrarAgentexId(
+  Int32 idAgente
+       )
+        {
+            try
+            {
+                Model.Agente modAgente = new Model.Agente();
+                dalAgente.conexion.AbrirConexion();
+
+                SqlDataReader sqlDataReader = dalAgente.FiltrarAgentexId(
+        idAgente
+                );
+
+                modAgente = ConversorClases.ConvertModel<Model.Agente>(sqlDataReader);
+
+                dalAgente.conexion.CerrarConexion();
+
+                return modAgente;
+            }
+            catch
+            {
+                throw;
+            }
+        }
+
+        public Model.Agente ActualizarAgente(Model.Agente modAgente)
+        {
+            try
+            {
+                dalAgente.conexion.AbrirConexion();
+
+                SqlDataReader sqlDataReader = dalAgente.ActualizarAgente(modAgente);
+
+                modAgente = ConversorClases.ConvertModel<Model.Agente>(sqlDataReader);
+
+                dalAgente.conexion.CerrarConexion();
+
+                return modAgente;
+            }
+            catch
+            {
+                throw;
+            }
+        }
+
+        public Model.Agente PromoverAfiliado(Model.Agente modAgente)
+        {
+            try
+            {
+                dalAgente.conexion.AbrirConexion();
+
+                SqlDataReader sqlDataReader = dalAgente.PromoverAfiliado(modAgente);
+
+                modAgente = ConversorClases.ConvertModel<Model.Agente>(sqlDataReader);
+
+                dalAgente.conexion.CerrarConexion();
+
+                return modAgente;
+            }
+            catch
+            {
+                throw;
+            }
+        }
     }
 }

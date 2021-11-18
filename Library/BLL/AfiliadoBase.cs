@@ -59,6 +59,32 @@ namespace BLL
             }
         }
 
+
+        public Model.Afiliado FiltrarAfiliadoxNombreUsuario(
+   String NombreUsuario
+        )
+        {
+            try
+            {
+                Model.Afiliado modAfiliado = new Model.Afiliado();
+                dalAfiliado.conexion.AbrirConexion();
+
+                SqlDataReader sqlDataReader = dalAfiliado.FiltrarAfiliadoxNombreUsuario(
+        NombreUsuario
+                );
+
+                modAfiliado = ConversorClases.ConvertModel<Model.Afiliado>(sqlDataReader);
+
+                dalAfiliado.conexion.CerrarConexion();
+
+                return modAfiliado;
+            }
+            catch
+            {
+                throw;
+            }
+        }
+
         public Model.Afiliado InsertarAfiliado(Model.Afiliado modAfiliado)
         {
             try
@@ -86,6 +112,26 @@ namespace BLL
                 dalAfiliado.conexion.AbrirConexion();
 
                 SqlDataReader sqlDataReader = dalAfiliado.ActualizarAfiliado(modAfiliado);
+
+                modAfiliado = ConversorClases.ConvertModel<Model.Afiliado>(sqlDataReader);
+
+                dalAfiliado.conexion.CerrarConexion();
+
+                return modAfiliado;
+            }
+            catch
+            {
+                throw;
+            }
+        }
+
+        public Model.Afiliado PromoverAfiliado(Model.Afiliado modAfiliado)
+        {
+            try
+            {
+                dalAfiliado.conexion.AbrirConexion();
+
+                SqlDataReader sqlDataReader = dalAfiliado.PromoverAfiliado(modAfiliado);
 
                 modAfiliado = ConversorClases.ConvertModel<Model.Afiliado>(sqlDataReader);
 

@@ -17,7 +17,7 @@ namespace Model
 		public string Direccion2 { get; set; }
 		public DateTime FechaInscripcion { get; set; }
 		public int EstadoAfiliado { get; set; }
-		public int Cargo { get; set; }
+		public int IdCargo { get; set; }
 
 		public string Estado { get; set; }
 	}

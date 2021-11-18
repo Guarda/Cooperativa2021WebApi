@@ -7,10 +7,12 @@ using System.Reflection;
 using System.Data;
 using WebAPI.Response;
 using WebAPI.Models;
+using Microsoft.AspNetCore.Authorization;
 
 namespace WebApi.Controllers
 {
     [ApiController]
+    [Authorize]
     [Route("api/[controller]")]
     public class AfiliadoController : ControllerBase
     {
@@ -159,7 +161,8 @@ namespace WebApi.Controllers
                     modafiliado.NombreUsuario,
                     modafiliado.Contraseña,
                     modafiliado.IdEstado,
-                    modafiliado.IdCargo
+                    modafiliado.IdCargo,
+                    modafiliado.FechaContrato
                 };
 
                 return Ok(new Respuesta
@@ -253,9 +256,20 @@ namespace WebApi.Controllers
                 modafiliado.Contraseña = afiliadoActualizar.Contraseña;
                 modafiliado.IdEstado = afiliadoActualizar.IdEstado;
                 modafiliado.IdCargo = afiliadoActualizar.IdCargo;
+                modafiliado.FechaContrato = afiliadoActualizar.FechaContrato;
+
+                if (modafiliado.FechaContrato.GetHashCode() != 0 && modafiliado.IdCargo == 2)
+                {
+                    bllAfiliado.PromoverAfiliado(modafiliado);
+                    bllAfiliado.ActualizarAfiliado(modafiliado);
+                }
+                else { 
+                    bllAfiliado.ActualizarAfiliado(modafiliado); 
+                }
+
                 //modafiliado.ipequipomodificacion = request.httpcontext.connection.remoteipaddress.tostring();
 
-                bllAfiliado.ActualizarAfiliado(modafiliado);
+                
 
                 return Ok(new Respuesta
                 {
